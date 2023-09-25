@@ -1,0 +1,8 @@
+﻿# autor: Kevin Cabrera Luna
+# Problema 1
+# fecha: 25 sep
+a = 3+2
+b= 2*5
+x= (a/b)
+z = x**2
+print (x)
