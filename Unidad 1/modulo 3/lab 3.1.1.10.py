@@ -1,6 +1,6 @@
 # Autor: Kevin Cabrera Luna
 # LAB 3.1.1.10
-# FECHA 2 SEP
+# FECHA 2 oct
 planta = input("Ingrese el nombre de la planta: ")
 if planta == "ESPATIFILIO":
     print("Si, ¡El ESPATIFILIO! es la mejor planta de todos los tiempos!")
