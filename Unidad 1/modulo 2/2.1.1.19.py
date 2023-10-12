@@ -1,3 +1,5 @@
+*****kevin cabrera luna
+
 print("    *\n   * *\n  *   *\n *     *\n***   ***\n  *   *\n  *   *\n  *****")
 
 print("        *")
