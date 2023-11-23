@@ -13,11 +13,13 @@ def display_siete_segmentos(numero):
         ["###", "# #", "###", "# #", "###"],
         ["###", "# #", "###", "  #", "###"]
     ]
-    digitos_str = [[digitos[int(digito)][i] for i in range(5)] for digito in str(numero)]
-    for i in range(5):
-        print(" ".join(digit[i] for digit in digitos_str))
-entrada_usuario = input("Por favor, ingresa un numero no negativo: ")
+    
+    for row in range(5):
+        digitos_str = [digitos[int(digito)][row] for digito in str(numero)]
+        print(" ".join(digit_str for digit_str in digitos_str))
+
 try:
+    entrada_usuario = input("Por favor, ingresa un numero no negativo: ")
     numero = int(entrada_usuario)
     display_siete_segmentos(numero)
 except ValueError:
