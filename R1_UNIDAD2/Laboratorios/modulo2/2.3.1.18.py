@@ -1,8 +1,8 @@
 #Kevin Cabrera Luna
 #R1 u2
 def mysplit(strng):
-    words = strng.split()
-    return words
+    return strng.split()
+
 print(mysplit("Ser o no ser, esa es la pregunta"))
 print(mysplit("Ser o no ser,esa es la pregunta"))
 print(mysplit("   "))
