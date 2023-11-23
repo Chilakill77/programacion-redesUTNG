@@ -20,5 +20,5 @@ class MyCalendar(Calendar):
                     count += 1
         return count
 calendar = MyCalendar()
-print(calendar.count_weekday_in_year(2019, 0)) # 52
-print(calendar.count_weekday_in_year(2000, 6)) # 53
+print(calendar.count_weekday_in_year(2019, 0))  # 52 (Número de lunes en 2019)
+print(calendar.count_weekday_in_year(2000, 6))  # 53 (Número de domingos en 2000)
